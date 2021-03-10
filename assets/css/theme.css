@@ -2795,7 +2795,29 @@
 
 @media (max-width: 575.98px) {
 
-    
+    .rs-btn {
+        width: 139px;
+        text-align: center;
+    }
+    .rs-btn a{
+        font-size: 20px;
+    }
+    /*REUSABLE HEADING___-----REUSABLE HEADING HEADING--_*/
+
+    .reusable-heading {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .reusable-heading h1 {
+        font-size: 30px;
+    }
+    .reusable-heading h6 {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+    .best-three{
+        margin-bottom: 60px;
+    }
     .best-three-inner .row .col-md-4 div i{
         font-size: 22px;
     }
@@ -2990,16 +3012,24 @@
         width: 60px !important;
     }
     .house-video .house-video-caption{
-       display: none;
+
+    }
+    .house-video .house-video-caption h1{
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 0px;
+        text-align: center;
+        white-space: nowrap;
+    }
+    .house-video .house-video-caption p{
+        display: none;
+
     }
     .video-btn{
-        background-color: rgba(243, 237, 237, 0.5);
-        position: absolute;
-        top: 50%;
+
+        top: 60%;
         left: 50%;
-        z-index: 600;
         transform: translate(-50%,-50%);
-        border-radius: 50%;
         border: 10px solid  rgba(243, 237, 237, 0.2);
     }
 
@@ -3008,9 +3038,16 @@
         height: 169px !important;
     }
     .house-video{
-        margin-top: 100px;
-        margin-bottom: 120px;
+        margin-top: 0px;
+        margin-bottom: 60px;
         position: relative;
+        height: 200px;
+    }
+    .house-video .dark-blue-overlay{
+        background-color: rgba(2, 14, 44, 1);
+    }
+    .popular{
+        margin-bottom: 60px;
     }
     .pop-long-caption {
     position: absolute;
@@ -3109,11 +3146,11 @@
         display: block;
     }
     .submit-property .dark-blue-overlay .house-video-caption  h1{
-        font-size: 15px;
-        margin-bottom: 10px;
+        font-size: 30px;
+        margin-bottom: 20px;
     }
     .submit-property .dark-blue-overlay .house-video-caption  h6{
-        font-size: 10px;
+        font-size: 18px;
     }
     .submit-property .dark-blue-overlay .house-video-caption  p{
         display: none
@@ -3127,6 +3164,9 @@
     .generic-submit-btn a{
         font-size: 8px;
     }
+    .submit-property{
+        margin-top: 40px;
+    }
     .submit-property .dark-blue-overlay .house-video-caption {
         position: absolute;
         z-index: 500;
@@ -3134,26 +3174,41 @@
         left: 50%;
         transform: translate(-50%,-50%);
     }
+
+
+    /*COOOMPANYYY*/
+    .company{
+        margin-bottom: 417px;
+    }
     .company-logo-inner{
         border-radius: 5px;
         background-color: #509407;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-direction: column;
         padding: 3% 5%;
     }
     .company-logo-inner img{
-        width: 45px;
+        width: 85px;
+        margin: 10px 0;
     }
     .company h1{
-        font-size: 14px;
-        margin-bottom: 2px;
+        font-size: 30px;
+        margin-bottom: 10px;
     }
     .company h6{
-        font-size: 11px;
+        font-size: 18px;
     }
     .company p{
         display: none;
+    }
+    .company-caption .reusable-heading .heading-inner .row .col-md-4 .generic-submit-btn {
+        width: 100px;
+        height: 40px;
+    }
+    .company-caption .reusable-heading .heading-inner .row .col-md-4 .generic-submit-btn a{
+        font-size: 14px;
     }
     .mid-footer-inner-caption {
     padding: 9% 10px;
@@ -3161,22 +3216,22 @@
     padding-bottom: 0;
 }
     .company .company-caption {
+        padding: 20px 15px;
         color: white;
-        position: absolute;
-        z-index: 500;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
+        position: static;
+        top: unset;
+        left: unset;
+        transform: unset;
         width: 100%;
     }
     .company-logo {
-        position: absolute;
-        bottom: 0%;
-        left: 50%;
-        transform: translate(-50%,+110%);
+        position: static;
+        bottom:unset;
+        left: unset;
+        transform: unset;
         width: 100%;
     }
-
+/*_------___-----_----COOOOMPANY EEENDD___-------_*/
     .news-card-inner-caption h3{
         color: #07153a;
         font-size: 20px;
