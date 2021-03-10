@@ -2794,7 +2794,9 @@
 }
 
 @media (max-width: 575.98px) {
-
+    .navbar-nav{
+        padding: 10px ;
+    }
     .rs-btn {
         width: 139px;
         text-align: center;
