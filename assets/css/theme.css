@@ -818,6 +818,21 @@
     width: 26px !important;
     margin: 0 5px;
 }
+.owl-nav{
+    margin-top: 0 !important;
+}
+.owl-nav i{
+    color: rgba(107,107,117,.4);
+    font-size: 23px;
+}
+.owl-nav button{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.owl-nav button:hover{
+    background-color: transparent !important;
+}
 .owl-prev{
     position: absolute;
     top: 50%;
@@ -1598,11 +1613,11 @@
         width: 50px;
         height: 50px;
     }
-    .owl-next img{
-        width: 30px;
+    .owl-nav i{
+        font-size: 20px;
     }
-    .owl-prev img{
-        width: 30px;
+    .owl-nav button{
+        margin: unset !important;
     }
     .review-caption p{
         display: none;
@@ -2060,21 +2075,21 @@
         width: 50px;
         height: 50px;
         top: 50%;
-        left: 14%;
+        left: 10%;
         transform: translate(0,-50%);
     }
     .owl-next {
         width: 50px;
         height: 50px;
         top: 50%;
-        right: 14%;
+        right: 10%;
         transform: translate(0,-50%);
     }
-    .owl-next img{
-        width: 30px;
+    .owl-nav i{
+        font-size: 20px;
     }
-    .owl-prev img{
-        width: 30px;
+    .owl-nav button{
+        margin: unset !important;
     }
     .review-caption p{
         display: none;
@@ -2087,7 +2102,7 @@
     }
     .review-slider-inner{
         margin: 0 auto;
-        width: 52%;
+        width: 62%;
         position: relative;
         border: 2px solid rgba(85,85,85,0.3);
         border-radius: 5px;
@@ -2544,34 +2559,43 @@
         width: 40px;
         height: 40px;
         top: 50%;
-        left: 8%;
+        left: 2%;
         transform: translate(0,-50%);
     }
     .owl-next {
         width: 40px;
         height: 40px;
         top: 50%;
-        right: 8%;
+        right: 2%;
         transform: translate(0,-50%);
     }
-    .owl-next img{
-        width: 20px;
+    .owl-nav i{
+        font-size: 18px;
     }
-    .owl-prev img{
-        width: 20px;
+    .owl-nav button{
+        margin: unset !important;
+    }
+    .owl-dots{
+        margin-top: 5px !important;
+    }
+    .owl-dots button{
+        outline: none;
+    }
+    .owl-theme .owl-dots .owl-dot.active span {
+        background: #509407;
     }
     .review-caption p{
         display: none;
     }
     .review-slider {
         position: absolute;
-        top: 30%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%,0);
     }
     .review-slider-inner{
         margin: 0 auto;
-        width: 60%;
+        width: 80%;
         position: relative;
         border: 2px solid rgba(85,85,85,0.3);
         border-radius: 5px;
@@ -3004,24 +3028,48 @@
         display: none;
     }
     .owl-next{
-        right: -1.5%;
+        position: static;
+        transform: unset;
         height: 30px;
         width: 30px;
         border: 2px solid rgba(107, 107, 117,0.4) !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
     }
 
+    .owl-nav i{
+        font-size: 18px;
+    }
+    .owl-nav button{
+        margin: unset !important;
+    }
     .owl-prev{
-        left: -1.5%;
+        position: static;
+        transform: unset;
         height: 30px;
         width: 30px;
         border: 2px solid rgba(107, 107, 117,0.4) !important;
+        margin: 0 !important;
+        margin-right: 5px !important;
      
     }
+    .owl-nav{
+        display: none;
+    }
+    .owl-dots{
+        margin-top: 5px !important;
+    }
+    .owl-dots button{
+        outline: none;
+    }
+    .owl-theme .owl-dots .owl-dot.active span {
+        background: #509407;
+    }
     .owl-next img{
-        width: 15px;
+        width: 12px;
     }
     .owl-prev img{
-        width: 15px;
+        width: 12px;
     }
     .review-caption p{
         display: none;
@@ -3034,11 +3082,11 @@
     }
     .review-slider-inner{
         margin: 0 auto;
-        width: 80%;
+        width: 98%;
         position: relative;
         border: 2px solid rgba(85,85,85,0.3);
         border-radius: 5px;
-        padding: 3.2% 5% 2% 5% ;
+        padding: 4% 5% 2% 5% ;
     }
     .person{
         width: 20px;
@@ -3046,15 +3094,14 @@
         border: 1px solid #509407;
 
     }
+ 
     .review-slider-inner p {
-        color: rgb(218, 214, 214);
         text-align: center;
-        margin-bottom: 6px;
+        margin-bottom: 0px;
         font-size: 10px;
     }
-    .stars img {
-        width: 10px !important;
-        margin: 0 5px;
+    .stars{
+        display: none;
     }
     .review-slider-inner h6 {
         color: white;

@@ -46,12 +46,15 @@ $('.owl-carousel').owlCarousel({
     dots:false,
     singleItem:true,
     navText:[
-        '<img width="45px" src="./assets/img/bracket-ro.svg">',
-        '<img width="45px" src="./assets/img/bracket-lo.svg">'
+        '<i class="fas fa-chevron-left"></i>',
+        '<i class="fas fa-chevron-right"></i>'
     ],
     responsive:{
         0:{
-            items:1
+            items:1,
+            dots:true,
+            nav:false,
+            autolay:true
         },
         600:{
             items:1
