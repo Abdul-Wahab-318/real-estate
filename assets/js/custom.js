@@ -35,8 +35,8 @@ function showVideo()
 
 function stopVideo()
 {
-    document.querySelector('#player').src='';
-    document.querySelector('#player').src="https://www.youtube.com/embed/9Y9wuCyMkFk";
+    ifrm.src="";
+    ifrm.src="https://www.youtube.com/embed/9Y9wuCyMkFk";
 }
 
 $('.owl-carousel').owlCarousel({
@@ -125,16 +125,6 @@ function unreactHeart(e)
 }
 
 
-
-
-
-
-
-
-
-
-
-
 function clear()
         {
             document.getElementById('name').value="";
@@ -185,9 +175,18 @@ function clear()
                 }
             }
 
+
+            //inject iframe
+            var videoDiv=document.getElementById('video');
+            var ifrm = document.createElement("iframe");
+        function createIframe(){
+            
+            ifrm.setAttribute("src", "https://www.youtube.com/embed/9Y9wuCyMkFk");
+            ifrm.style.width = "1060px";
+            ifrm.style.height = "615px";
+            videoDiv.appendChild(ifrm);
+            console.log('creating iframe');
+        }
         
 
-
-
-
-
+//<iframe width="1060px" height="615px" id="player" src="https://www.youtube.com/embed/9Y9wuCyMkFk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
