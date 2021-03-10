@@ -3024,40 +3024,42 @@
         display: block;
     }
 
-    .review-caption .reusable-heading {
-        display: none;
-    }
-    .owl-next{
-        position: static;
-        transform: unset;
-        height: 30px;
-        width: 30px;
-        border: 2px solid rgba(107, 107, 117,0.4) !important;
-        margin: 0 !important;
-        margin-left: 5px !important;
-    }
 
+    .review-caption .reusable-heading {
+        position: absolute;
+        z-index: 1000;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%,0);
+        margin-top: 15px !important;
+    }
+    .review-caption .reusable-heading h1 {
+        white-space: nowrap;
+        color: white;
+        font-size: 30px;
+    }
+    .review-caption .reusable-heading h6 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+  
+    .review{
+        height: 400px;
+    }
+    .review .dark-blue-overlay{
+        background-color: rgba(2, 14, 44, 1) ;
+    }
     .owl-nav i{
         font-size: 18px;
     }
     .owl-nav button{
         margin: unset !important;
     }
-    .owl-prev{
-        position: static;
-        transform: unset;
-        height: 30px;
-        width: 30px;
-        border: 2px solid rgba(107, 107, 117,0.4) !important;
-        margin: 0 !important;
-        margin-right: 5px !important;
-     
-    }
     .owl-nav{
         display: none;
     }
     .owl-dots{
-        margin-top: 5px !important;
+        margin-top: 20px !important;
     }
     .owl-dots button{
         outline: none;
@@ -3065,18 +3067,12 @@
     .owl-theme .owl-dots .owl-dot.active span {
         background: #509407;
     }
-    .owl-next img{
-        width: 12px;
-    }
-    .owl-prev img{
-        width: 12px;
-    }
     .review-caption p{
         display: none;
     }
     .review-slider {
         position: absolute;
-        top: 55%;
+        top: 65%;
         left: 50%;
         transform: translate(-50%,-50%);
     }
@@ -3084,13 +3080,13 @@
         margin: 0 auto;
         width: 98%;
         position: relative;
-        border: 2px solid rgba(85,85,85,0.3);
+        border: 2px solid rgba(85,85,85,0.5);
         border-radius: 5px;
-        padding: 4% 5% 2% 5% ;
+        padding: 14% 5% 5% 5% ;
     }
     .person{
-        width: 20px;
-        height: 20px;
+        width: 60px;
+        height: 60px;
         border: 1px solid #509407;
 
     }
@@ -3098,7 +3094,7 @@
     .review-slider-inner p {
         text-align: center;
         margin-bottom: 0px;
-        font-size: 10px;
+        font-size: 14px;
     }
     .stars{
         display: none;
@@ -3107,7 +3103,7 @@
         color: white;
         text-align: center;
         margin-bottom: 5px;
-        font-size: 11px;
+        font-size: 20px;
     }
     .submit-property .dark-blue-overlay .house-video-caption{
         display: block;
