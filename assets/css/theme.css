@@ -116,9 +116,6 @@
     z-index: 1000;
    
 }
-.small-collapse{
-
-}
 .back-image{
     width: 100%;
     position: relative;
@@ -375,7 +372,9 @@
     border-radius: 7px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    transition: all 800ms ease;
 }
+
 .sell-prop .row .col-md-4 .inner-sell-prop h2{
     font-size: 28px;
     font-weight: 500;
@@ -473,9 +472,6 @@
     height: 50px;
     border-radius: 50%;
 }
-.user-circle img{
-
-}
 
 .owner-info{
    
@@ -516,9 +512,7 @@
 .owner-info .col-md-12{
     padding: 0;
 }
-.owner-info-inner {
-    
-}
+
 .owner-info-inner p{
     color: white;
     font-weight: 400;
@@ -1022,6 +1016,9 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+.agent-card-inner:hover .agent-card-inner-caption .agent-icons ul li{
+    border: 1px solid white;
+}
 .agent-card-inner-caption{
     border: 1px solid #e6e7eb;
     border-top: 0;
@@ -1029,6 +1026,7 @@
     border-bottom-right-radius: 5px;
     text-align: center;
     padding-top: 6%;
+    transition: all 400ms ease-in;
 }
 .agent-card-inner-caption h3{
     color: #07153a;
@@ -1154,9 +1152,7 @@
 .news-feed{
     margin-bottom: 300px;  
 }
-.news-card{
 
-}
 .news-card-inner{
     position: relative;
 }
@@ -1549,9 +1545,7 @@
         left: 50%;
         transform: translate(-50%,-50%);
     }
-    .hero-caption .dummy-text{
-        
-    }
+
     .hero-caption .shapes{
      display: none;
     }
@@ -3012,9 +3006,6 @@
     }
     .video-btn div img{
         width: 60px !important;
-    }
-    .house-video .house-video-caption{
-
     }
     .house-video .house-video-caption h1{
         font-weight: 700;

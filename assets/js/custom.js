@@ -14,7 +14,7 @@ function overGreen(e)
     e.firstElementChild.firstElementChild.style.backgroundSize='300px';
     e.firstElementChild.style.backgroundColor='#509407'
     e.firstElementChild.firstElementChild.nextElementSibling.style.color="white";
-    e.firstElementChild.firstElementChild.nextElementSibling.nextElementSibling.style.color="#caced6";
+    e.firstElementChild.firstElementChild.nextElementSibling.nextElementSibling.style.color="white";
 }
 
 function hideGreen(e)
