@@ -8,23 +8,6 @@ function displaySearch()
     document.querySelector('#search-link').classList.toggle('triangle');
 }
 
-function overGreen(e)
-{
-    e.firstElementChild.firstElementChild.style.backgroundImage="url('./assets/img/back-hover2.jpg')";
-    e.firstElementChild.firstElementChild.style.backgroundSize='300px';
-    e.firstElementChild.style.backgroundColor='#509407'
-    e.firstElementChild.firstElementChild.nextElementSibling.style.color="white";
-    e.firstElementChild.firstElementChild.nextElementSibling.nextElementSibling.style.color="white";
-}
-
-function hideGreen(e)
-{
-    e.firstElementChild.firstElementChild.style.backgroundImage="";
-    e.firstElementChild.style.backgroundColor='white'
-    e.firstElementChild.firstElementChild.nextElementSibling.style.color="#07153a";
-    e.firstElementChild.firstElementChild.nextElementSibling.nextElementSibling.style.color="#637cad";
-}
-
 function showVideo()
 {
     console.log('function triggered');

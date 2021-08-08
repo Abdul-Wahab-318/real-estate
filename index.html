@@ -204,7 +204,7 @@
 
             <div class="container sell-prop">
               <div class="row">
-                <div class="col-md-4  sell-prop-pad" onmouseenter="overGreen(this)" onmouseleave="hideGreen(this)">
+                <div class="col-md-4  sell-prop-pad" >
                   <div class="inner-sell-prop">
                     <div class="img-circle  d-md-flex" id="firstHover">
                       <img src="./assets/img/004-settings.svg" width="50px" alt="">
@@ -214,7 +214,7 @@
                   </div>
                 </div>
 
-                <div class="col-md-4  sell-prop-pad" onmouseenter="overGreen(this)" onmouseleave="hideGreen(this)">
+                <div class="col-md-4  sell-prop-pad" >
                   <div class="inner-sell-prop">
                     <div class="img-circle  d-md-flex">
                       <img src="./assets/img/008-support.svg" width="70px" alt="">
@@ -224,7 +224,7 @@
                   </div>
                 </div>
 
-                <div class="col-md-4 sell-prop-pad" onmouseenter="overGreen(this)" onmouseleave="hideGreen(this)">
+                <div class="col-md-4 sell-prop-pad" >
                   <div class="inner-sell-prop">
                     <div class="img-circle  d-md-flex">
                       <img src="./assets/img/003-idea.svg" width="70px" alt="">
@@ -252,32 +252,34 @@
                 <div class="row">
                   <div class="col-md-4  bh-sm-fixer "  > 
                     <div class="bh-pad">
-                      <img src="./assets/img/002-like.svg" width="25px" alt="" class="like" onclick="reactHeart(this)">
-                      <i class="fas fa-heart like d-none" id="like-icon"  onclick="unreactHeart(this)"></i>
-                      <img src="./assets/img/tempbh-1.jpg" width="100%"   alt="">
-                      <div class="for-sale-btn mx-auto">
-                        <a href="">For Sale</a>
-                      </div>
-                      <div class=" owner-info">                       
-                          <div class="d-flex">
-                            <div class="user-circle" style="background-image: url(./assets/img/owl1.jpg); background-size: 50px;background-position: center;">
+                      <div class="black-overlay-small">
+                        <img src="./assets/img/002-like.svg" width="25px" alt="" class="like" onclick="reactHeart(this)">
+                        <i class="fas fa-heart like d-none" id="like-icon"  onclick="unreactHeart(this)"></i>
+                        <img src="./assets/img/tempbh-1.jpg" width="100%"   alt="">
+                        <div class="for-sale-btn mx-auto">
+                          <a href="">For Sale</a>
+                        </div>
+                        <div class=" owner-info">                       
+                            <div class="d-flex">
+                              <div class="user-circle" style="background-image: url(./assets/img/owl1.jpg); background-size: 50px;background-position: center;">
+                              </div>
+                              <div class="owner-info-inner">
+                                <p>Owner Name</p>
+                                <img src="./assets/img/001-pin.svg" width="14px" alt="" class=" pin-fixer">
+                                <span> New York real estate</span>
+                              </div>
                             </div>
-                            <div class="owner-info-inner">
-                              <p>Owner Name</p>
-                              <img src="./assets/img/001-pin.svg" width="14px" alt="" class=" pin-fixer">
-                              <span> New York real estate</span>
-                            </div>
-                          </div>
-                      </div>
-                      <div class="house-details">
-                        <ul class="ml-0">
-                          <li class="ml-0">$ 80,695.00</li>
-                        </ul>
-                        <ul>
-                          <li><img src="./assets/img/001-joist.svg" width="17px" alt="" class="house-icons room-fixer"> <span>4</span></li>
-                          <li><img src="./assets/img/001-bathtub.svg" width="17px" alt="" class="balance-bathtub house-icons"><span>5</span></li>
-                          <li><img src="./assets/img/001-select.svg" width="17px" alt="" > <span>1026 sq ft.</span></li>
-                        </ul>
+                        </div>
+                        <div class="house-details">
+                          <ul class="ml-0">
+                            <li class="ml-0">$ 80,695.00</li>
+                          </ul>
+                          <ul>
+                            <li><img src="./assets/img/001-joist.svg" width="17px" alt="" class="house-icons room-fixer"> <span>4</span></li>
+                            <li><img src="./assets/img/001-bathtub.svg" width="17px" alt="" class="balance-bathtub house-icons"><span>5</span></li>
+                            <li><img src="./assets/img/001-select.svg" width="17px" alt="" > <span>1026 sq ft.</span></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
