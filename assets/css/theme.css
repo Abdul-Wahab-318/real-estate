@@ -737,6 +737,7 @@
     right: 0%;
     z-index: 100;
     background-color: rgba(2, 14, 44, 0.9);
+
 }
 
 .review-slider{
@@ -999,6 +1000,7 @@
 }
 .submit-property .dark-blue-overlay{
     background-color: rgba(4, 14, 41, 0.9);
+
 }
 .submit-property .col-md-12{
     padding: 0;
@@ -2799,6 +2801,26 @@
 }
 
 @media (max-width: 575.98px) {
+    /*HERO SECTION*/
+    .back-image{
+        background-image: url(../img/back-img.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 180px 0;
+    }
+
+    .search-form .row .col-md-12 .form-mid{
+        padding: 0 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+    .search-form .row .col-md-12 .form-mid :is(select ,button){
+        width: 100%;
+        padding: 10px 8px;
+        margin-left: unset !important;
+    }
+    /*HERO SECTION*/
     .navbar-nav{
         padding: 10px ;
     }
@@ -2809,13 +2831,21 @@
     .rs-btn a{
         font-size: 20px;
     }
+    /*SELL PROP CTA*/
+    .sell-prop .row .col-md-4 .inner-sell-prop h2 {
+        padding-top: 90px;
+    }
+    /*SELL PROP CTA*/
     /*REUSABLE HEADING___-----REUSABLE HEADING HEADING--_*/
 
     .reusable-heading {
         margin-top: 60px;
         margin-bottom: 30px;
     }
-    .reusable-heading h1 {
+    .news-feed .reusable-heading h1 {
+        font-size: 30px;
+    }
+    .reusable-heading h1{
         font-size: 30px;
     }
     .reusable-heading h6 {
@@ -2839,6 +2869,11 @@
     }
     .hidden-search-btn{
         font-size: 11px;
+    }
+    .logo-strip .navbar-light .navbar-nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        box-shadow: 0px 23px 37px -10px rgb(126, 125, 125);
     }
     .logo-strip .navbar-light .navbar-nav .nav-link {
         padding: 0 10px;
@@ -2873,7 +2908,7 @@
         margin-top: 10px !important;
     }
     .hero-caption .best-homes-caption h1{
-        display: none;
+        font-size: 20px;
     }
     
     .dummy-text p{
@@ -2908,7 +2943,7 @@
     }
     .sell-prop .row .sell-prop-pad {
         padding: 0 10px;
-        margin-top: 100px;
+        margin-top: 80px;
     }
     .img-circle {
         position: absolute;
@@ -3049,6 +3084,9 @@
     }
     .house-video .dark-blue-overlay{
         background-color: rgba(2, 14, 44, 1);
+        background-image: url(../img//back-hover2.jpg);
+        background-blend-mode:screen;
+        background-size: cover;
     }
     .popular{
         margin-bottom: 60px;
@@ -3146,6 +3184,10 @@
         margin-bottom: 5px;
         font-size: 20px;
     }
+    .submit-property .dark-blue-overlay{
+        background-image: url(../img//back-hover2.jpg);
+        background-size: cover; 
+    }
     .submit-property .dark-blue-overlay .house-video-caption{
         display: block;
     }
@@ -3214,11 +3256,7 @@
     .company-caption .reusable-heading .heading-inner .row .col-md-4 .generic-submit-btn a{
         font-size: 14px;
     }
-    .mid-footer-inner-caption {
-    padding: 9% 10px;
-    padding-right: 6%;
-    padding-bottom: 0;
-}
+
     .company .company-caption {
         padding: 20px 15px;
         color: white;
@@ -3284,7 +3322,7 @@
         margin-bottom: 200px;
     }
     .top-footer-inner-caption{
-        padding: 25px 0;
+        padding: 25px 15px;
         display: flex;
     }
     .top-footer-inner-caption ul li{
@@ -3300,8 +3338,7 @@
         font-size: 15px;
     }
     .footer-logo{
-        margin-right: 10px;
-        margin-left: 10px;
+        margin: 0 5px 0 0 ;
         width: 25px !important;
     }
     .footer-icons{
@@ -3317,9 +3354,8 @@
         font-size: 13px;
     }
     .mid-footer-inner-caption {
-        padding: 9% 10px;
-        padding-right: 6%;
-        padding-bottom: 0;
+        padding: 9% 18px 0 18px;
+
     }
     .house-tags{
         margin-bottom: 9%;
